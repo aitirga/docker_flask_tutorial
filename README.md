@@ -1,5 +1,5 @@
-# docker_flask_tutorial
-This repository contains different steps and tests done to learn using docker and flask
+# docker/flask/django tutorials
+This repository contains different steps and tests done to learn using docker/flask and Django.
 ## Tasks
 The following tutorials and test projects have been developed:
 * [First steps using Docker](https://docker-curriculum.com/)  
@@ -8,4 +8,6 @@ This tutorial shows some basic (but useful) tips and steps to understand how Doc
   - [Exercise 2](https://drive.google.com/open?id=10mLlL7JUdj0FxdMwDK7OpdYenOexHpvY&authuser=aitor.iraola@amphos21.com&usp=drive_fs): a more complex example using docker-compose to build an online foodtrack app.
 * [Using Flask to build basic web services](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)  
 This tutorial is assumed to show a start-to-end workflow to use Flask.
-  - [Exercise 1](flask_tutorial/tutorial_1): 
+  - [Exercise 1](flask_tutorial/tutorial_1): A very basic _Hello World_ app has been created and deployed to
+   using Docker.
+  - []
