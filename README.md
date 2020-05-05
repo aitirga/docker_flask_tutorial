@@ -10,4 +10,6 @@ This tutorial shows some basic (but useful) tips and steps to understand how Doc
 This tutorial is assumed to show a start-to-end workflow to use Flask.
   - [Exercise 1](flask_tutorial/tutorial_1): A very basic _Hello World_ app has been created and deployed to
    using Docker.
-  - []
+  - [Exercise 2](flask_tutorial/tutorial_2): Using html templates
+  - [Exercise 3](flask_tutorial/tutorial_3): Adding basic SQL database features to the flask webpage
+  - [Exercise 4](flask_tutorial/tutorial_4): Adding basic SQL database features to the flask webpage
