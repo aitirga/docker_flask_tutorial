@@ -12,4 +12,4 @@ This tutorial is assumed to show a start-to-end workflow to use Flask.
    using Docker.
   - [Exercise 2](flask_tutorial/tutorial_2): Using html templates
   - [Exercise 3](flask_tutorial/tutorial_3): Adding basic SQL database features to the flask webpage
-  - [Exercise 4](flask_tutorial/tutorial_4): Adding basic SQL database features to the flask webpage
+  - [Exercise 4](flask_tutorial/tutorial_4): Adding basic user management
