@@ -14,3 +14,4 @@ This tutorial is assumed to show a start-to-end workflow to use Flask.
   - [Exercise 3](flask_tutorial/tutorial_3): Adding basic SQL database features to the flask webpage
   - [Exercise 4](flask_tutorial/tutorial_4): Adding basic user management
   - [Exercise 5](flask_tutorial/tutorial_5): Adding user profile pages
+  - [Exercise 6](flask_tutorial/tutorial_6): Followers feature added
