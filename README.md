@@ -15,3 +15,4 @@ This tutorial is assumed to show a start-to-end workflow to use Flask.
   - [Exercise 4](flask_tutorial/tutorial_4): Adding basic user management
   - [Exercise 5](flask_tutorial/tutorial_5): Adding user profile pages
   - [Exercise 7](flask_tutorial/tutorial_7): Followers feature added + pagination
+  - [Exercise 8](flask_tutorial/tutorial_8): Email support and password recovery
