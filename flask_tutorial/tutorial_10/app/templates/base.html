@@ -50,3 +50,9 @@
         {% block app_content %}{% endblock %}
     </div>
 {% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    {{ moment.include_jquery() }}
+    {{ moment.include_moment(local_js=url_for('static', filename='js/moment.js')) }}
+{% endblock %}
