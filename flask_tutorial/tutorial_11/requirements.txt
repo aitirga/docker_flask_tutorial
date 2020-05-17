@@ -11,3 +11,4 @@ flask-babel
 pyjwt
 python-dotenv
 email-validator
+guess_language-spirit
