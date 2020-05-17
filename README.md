@@ -18,3 +18,4 @@ This tutorial is assumed to show a start-to-end workflow to use Flask.
   - [Exercise 8](flask_tutorial/tutorial_8): Email support and password recovery
   - [Exercise 9](flask_tutorial/tutorial_9): Complete facelift of the web
   - [Exercise 10](flask_tutorial/tutorial_10): Add better timestamp management
+  - [Exercise 11](flask_tutorial/tutorial_11): Add flask-babel for translation management
