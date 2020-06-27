@@ -1,0 +1,134 @@
+body {
+	background: linear-gradient(to bottom, #2a98df, rgba(42, 152, 223, 0.11));
+	text-align: justify;
+	font-size: 1.15em;
+	font-family: sans-serif;
+}
+
+#title {
+	color: #8e5a0d;
+	font-size: 2em;
+	font-weight: 600;
+
+}
+
+.italics {
+	font-style: italic;
+}
+
+.subtitle {
+	color: #782f12;
+}
+
+
+
+#service-image {
+	height: 600px;
+	width: 50vw;
+	background: radial-gradient(circle, red 10%, blue 40%);
+	background-size: cover;
+	border: 10px double #154233;
+}
+
+.link {
+	text-decoration: underline;
+}
+
+#about-me-image {
+	height: 300px;
+	border: 6px solid #0f0f0f;
+	padding: 10px;
+	margin: 40px;
+	float: right;
+}
+
+.site-table {
+	display: inline-block;
+}
+
+.container {
+	background-color: white;
+	height: 300px;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.container-item {
+	background: green;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+
+	width: 50px;
+	margin: 10px;
+	line-height: 50px;
+}
+
+.grid-container {
+	background-color: white;
+	margin: 10px;
+	height: 300px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+
+	/*justify-content: space-evenly;*/
+	/*align-content: space-between;*/
+}
+
+.grid-item {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+
+	width: 70px;
+	line-height: 40px;
+	margin: 10px;
+}
+
+.submit-button {
+	margin: 20px 10px;
+	padding: 10px 15px;
+	border: none;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	transform: scale(2.0);
+	background: #4d9dd7;
+	-webkit-transition: all 500ms ease;
+}
+
+.submit-button:hover {
+	background: #9eb7c6;
+	color: black;
+	padding: 20px 30px;
+}
+
+#about-me {
+	/*animation-name: red-to-black;*/
+	/*animation-duration: 3s;*/
+	/*animation-timing-function: linear;*/
+	/*animation-iteration-count: 2;*/
+	/*animation-direction: alternate;*/
+	animation: red-to-black 4s linear 0s 2 alternate;
+}
+
+@keyframes red-to-black {
+	0% {
+		background: red;
+		transform: translate(0px, 0px)
+	}
+	50% {
+		background: yellow;
+		transform: translate(10px, 10px)
+	}
+	100%  {
+		background: black;
+		transform: translate(20px, 20px)
+	}
+}
