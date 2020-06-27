@@ -1,0 +1,82 @@
+2020-05-11 21:42:00,092 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 22:00:21,076 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 22:00:33,957 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 22:00:45,978 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:38:50,162 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:40:55,070 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:41:14,932 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:41:58,420 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:42:35,466 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:46:41,519 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:47:01,081 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:47:27,233 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:48:06,805 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:48:56,733 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:49:09,322 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:49:51,722 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:51:31,276 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:52:32,080 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-11 23:59:53,320 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-12 00:00:44,607 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-12 00:14:21,729 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\__init__.py:43]
+2020-05-12 00:14:38,520 ERROR: Exception on /user/Aitor [GET] [in c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\routes.py", line 95, in user
+    return render_template("user.html", user=user, posts=posts)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\jinja2\loaders.py", line 127, in load
+    code = environment.compile(source, name, filename)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\jinja2\environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_6\app\templates\user.html", line 27, in template
+    {% endif %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endif'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2020-05-12 11:04:10,145 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_7\app\__init__.py:43]
+2020-05-12 12:29:50,252 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_8\app\__init__.py:45]
+2020-05-12 12:30:03,709 ERROR: Exception on /reset_password_request [GET] [in c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\aitorlm\anaconda3\envs\reactive_machine_learning\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_8\app\routes.py", line 162, in reset_password_request
+    if user:
+UnboundLocalError: local variable 'user' referenced before assignment
+2020-05-14 01:02:43,870 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_9\app\__init__.py:48]
+2020-05-14 01:02:55,459 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_9\app\__init__.py:48]
+2020-05-16 23:57:50,111 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_9\app\__init__.py:48]
+2020-05-17 00:27:11,056 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_10\app\__init__.py:50]
+2020-05-17 14:56:56,639 INFO: Microblog startup [in G:\Mi unidad\dev\docker_flask_tutorial\flask_tutorial\tutorial_11\app\__init__.py:53]
